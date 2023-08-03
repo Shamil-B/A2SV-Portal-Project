@@ -13,11 +13,10 @@ void main() {
     final choice = int.parse(stdin.readLineSync()!);
     print("");
 
-    if (choice == 0) {
-      break;
-    }
-
     switch (choice) {
+      case 0:
+        break;
+
       case 1:
         print("Enter title: ");
         final title = stdin.readLineSync()!;
